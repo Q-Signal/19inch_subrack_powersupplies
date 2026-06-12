@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Eurocard_48pin_AMO_Blank.kicad_pro",
+    "filename": "powersupplies_kicadproject.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -730,22 +730,26 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Eurocard_48pin_AMO_Blank.kicad_sch",
-        "name": "Eurocard_48pin_AMO_Blank",
+        "filename": "powersupplies_kicadproject.kicad_sch",
+        "name": "powersupplies_kicadproject",
         "uuid": "d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
       }
     ],
-    "used_designators": "#PWR7-12",
+    "used_designators": "U2-3,F1-2,#PWR13,C1-9",
     "variants": []
   },
   "sheets": [
     [
       "d2bb73ea-a6bc-4588-b3f4-545ae2e25abc",
-      "Eurocard_48pin_AMO_Blank"
+      "powersupplies_kicadproject"
     ],
     [
       "b247aa19-c6db-40d4-9578-4858bd0a46c8",
       "Conn_DIN41612_48pin"
+    ],
+    [
+      "d4756eb8-e5f6-46b5-beee-cd050daeaa88",
+      "6.5V Dual Rail Power"
     ],
     [
       "9de36560-3dee-4292-9bab-ab08ea3ae282",

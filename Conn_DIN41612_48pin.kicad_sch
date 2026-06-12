@@ -1263,7 +1263,7 @@
 		(uuid "27959b55-9ad6-4551-bd0e-36cfb7acf314")
 	)
 	(hierarchical_label "-15V"
-		(shape input)
+		(shape output)
 		(at 133.35 38.1 180)
 		(effects
 			(font
@@ -1285,7 +1285,7 @@
 		(uuid "53209e22-8904-4767-a0a1-a7132dcee69b")
 	)
 	(hierarchical_label "+15V"
-		(shape input)
+		(shape output)
 		(at 203.2 133.35 180)
 		(effects
 			(font
@@ -1296,7 +1296,7 @@
 		(uuid "69868ce6-b108-4eb1-82fa-14c1ca6ead07")
 	)
 	(hierarchical_label "+15V"
-		(shape input)
+		(shape output)
 		(at 63.5 133.35 180)
 		(effects
 			(font
@@ -1307,7 +1307,7 @@
 		(uuid "b3063dab-e5d9-4457-9381-a2d5677c0582")
 	)
 	(hierarchical_label "-15V"
-		(shape input)
+		(shape output)
 		(at 203.2 38.1 180)
 		(effects
 			(font
@@ -1340,7 +1340,7 @@
 		(uuid "db34f331-6423-4245-a72a-d4cf65a8ffe9")
 	)
 	(hierarchical_label "+15V"
-		(shape input)
+		(shape output)
 		(at 133.35 133.35 180)
 		(effects
 			(font
@@ -1362,7 +1362,7 @@
 		(uuid "e3b4b4ef-39b7-470c-b29a-0c266e65d412")
 	)
 	(hierarchical_label "-15V"
-		(shape input)
+		(shape output)
 		(at 63.5 38.1 180)
 		(effects
 			(font
@@ -1443,7 +1443,7 @@
 			(uuid "5f4b7218-c0e4-4e62-af2d-818332237c93")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR05")
 					(unit 1)
@@ -1522,7 +1522,7 @@
 			(uuid "28d6ddad-7f31-44b1-bdce-a7f7c20e6665")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR04")
 					(unit 1)
@@ -1601,7 +1601,7 @@
 			(uuid "2edcc162-1177-4f93-bf1c-4b55c02f3978")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR07")
 					(unit 1)
@@ -1680,7 +1680,7 @@
 			(uuid "af6d265a-4c5e-4e06-8694-e00b72dc10b2")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR03")
 					(unit 1)
@@ -1759,7 +1759,7 @@
 			(uuid "664e0464-95ca-48d9-a5fc-c2e318b04862")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR08")
 					(unit 1)
@@ -1838,7 +1838,7 @@
 			(uuid "a377b49f-8484-4d14-b9cb-7112265fcf2f")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR09")
 					(unit 1)
@@ -1917,7 +1917,7 @@
 			(uuid "51b0ad95-85a5-44b6-9aa1-d8c4a3c9a3a4")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR02")
 					(unit 1)
@@ -1996,7 +1996,7 @@
 			(uuid "c79fab81-c191-44d8-95bc-a0f34ce283b2")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR011")
 					(unit 1)
@@ -2288,7 +2288,7 @@
 			(uuid "ab2cd470-0faf-443c-a81e-b0529dff5463")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "U1")
 					(unit 3)
@@ -2367,7 +2367,7 @@
 			(uuid "aa58ed11-295c-4de9-98bf-fe54b275b448")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR06")
 					(unit 1)
@@ -2659,7 +2659,7 @@
 			(uuid "ab2cd470-0faf-443c-a81e-b0529dff5464")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "U1")
 					(unit 4)
@@ -2738,7 +2738,7 @@
 			(uuid "e3192c87-a7c0-4366-97eb-3bbd0c1ac747")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR01")
 					(unit 1)
@@ -3030,7 +3030,7 @@
 			(uuid "ab2cd470-0faf-443c-a81e-b0529dff5465")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "U1")
 					(unit 2)
@@ -3109,7 +3109,7 @@
 			(uuid "469ce85a-15dd-4e4d-be14-f1aa8074d284")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR012")
 					(unit 1)
@@ -3188,7 +3188,7 @@
 			(uuid "086bd37c-5b81-452d-b3e4-ebf05e2fbdb9")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "#PWR010")
 					(unit 1)
@@ -3480,7 +3480,7 @@
 			(uuid "ab2cd470-0faf-443c-a81e-b0529dff5466")
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/b247aa19-c6db-40d4-9578-4858bd0a46c8"
 					(reference "U1")
 					(unit 1)

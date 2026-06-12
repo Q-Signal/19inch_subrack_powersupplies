@@ -44,7 +44,7 @@
 			)
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
 					(page "4")
 				)
@@ -53,7 +53,7 @@
 	)
 	(sheet
 		(at 127 63.5)
-		(size 44.45 63.5)
+		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "Conn_DIN41612_48pin.kicad_sch"
-			(at 127 127.5846 0)
+			(at 127 102.1846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -90,10 +90,96 @@
 				(justify left top)
 			)
 		)
+		(pin "-6.5V" input
+			(at 127 76.2 180)
+			(uuid "4843f4ad-217e-4d7a-9d84-62c87aea41cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+6.5V" input
+			(at 127 88.9 180)
+			(uuid "388e2d66-ff87-49d7-b6cc-cd527845fcbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+15V" output
+			(at 165.1 76.2 0)
+			(uuid "e36703c3-e4a5-4d49-9ba0-9a72ed2f4043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "-15V" output
+			(at 165.1 88.9 0)
+			(uuid "34f732a4-6d35-4649-93a1-3bf961f911b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 63.5)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4756eb8-e5f6-46b5-beee-cd050daeaa88")
+		(property "Sheetname" "6.5V Dual Rail Power"
+			(at 177.8 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "6.5V_dual_rail_power.kicad_sch"
+			(at 177.8 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
+					(page "3")
 				)
 			)
 		)

@@ -173,7 +173,7 @@
 			)
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/9de36560-3dee-4292-9bab-ab08ea3ae282"
 					(reference "H2")
 					(unit 1)
@@ -249,7 +249,7 @@
 			)
 		)
 		(instances
-			(project "Eurocard_48pin_AMO_Blank"
+			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/9de36560-3dee-4292-9bab-ab08ea3ae282"
 					(reference "H1")
 					(unit 1)
