@@ -175,6 +175,445 @@
 			(outputdirectory "")
 		)
 	)
+	(footprint "Converter_DCDC:Converter_DCDC_TRACO_TSR2-xxxx_THT"
+		(layer "F.Cu")
+		(uuid "09d2b861-9298-4801-bbbd-a3bf6e9da569")
+		(at 200 73.33 90)
+		(descr "DCDC-Converter, TRACO, TSR2-xxxx, 2A, Rev. January 20. 2025, https://www.tracopower.com/products/tsr2.pdf")
+		(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2 2.54MM THT SIP-3 2A")
+		(property "Reference" "U3"
+			(at -0.14 -5.87 90)
+			(layer "F.SilkS")
+			(uuid "0251a9c2-42be-40b3-ab68-2567e56830fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TSR2-2465"
+			(at -0.14 11.03 90)
+			(layer "F.Fab")
+			(uuid "1b93e130-a868-491f-8c51-a80cb37e6ceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tsr2.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2972eafd-3aa4-4dc4-a6ed-fe1bf238fbb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e8aeb1b-b290-4413-884b-88c9b04b7db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "converter_ACDC_DCDC"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "36cdd35f-9c0d-4b78-a0ee-16ad0bfb9869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Converter*DCDC*TRACO*TSR2*xxxx**THT*")
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/9e363dd8-4566-48d2-849b-072ba6e71d10")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 4.22 -5.03)
+			(end 4.22 10.19)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e5f5634-86a4-4141-ad26-0923640d87d6")
+		)
+		(fp_line
+			(start -4.5 -5.03)
+			(end 4.22 -5.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8abf5b02-1708-4b78-9c86-e19b2b1dee25")
+		)
+		(fp_line
+			(start -4.5 -0.296)
+			(end -4.5 -5.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e4c0b35-c03d-49a5-bd92-63bc8c722f21")
+		)
+		(fp_line
+			(start 4.22 10.19)
+			(end -4.5 10.19)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d922c01-e854-4978-98a4-3976d5ef5be6")
+		)
+		(fp_line
+			(start -4.5 10.19)
+			(end -4.5 0.296)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "199a4d27-6ecd-4440-b230-c217ea00c301")
+		)
+		(fp_poly
+			(pts
+				(xy -4.5 0) (xy -4.97 0.34) (xy -4.97 -0.34)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "4ed1fe49-5eda-4b19-b345-b564f78be724")
+		)
+		(fp_rect
+			(start -4.64 -5.17)
+			(end 4.36 10.33)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b493971d-a738-4d30-ab3d-0d58d9990c63")
+		)
+		(fp_poly
+			(pts
+				(xy -2.89 -4.42) (xy 3.61 -4.42) (xy 3.61 9.58) (xy -3.89 9.58) (xy -3.89 -3.42)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d8ff0ab9-ecea-4852-8f15-a80ee6ec4500")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.14 2.58 90)
+			(layer "F.Fab")
+			(uuid "94e2914d-162c-4a81-9bb1-0eeb4495507f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net "GND")
+			(pinfunction "Vin_1")
+			(pintype "power_in")
+			(uuid "c4ee745b-4ae1-40c8-98de-ea7efdeb6f6e")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/6.5V Dual Rail Power/-15V")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(uuid "89a98729-a2b5-4fdb-9d4c-bb2e65339577")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(U3-Vout)")
+			(pinfunction "Vout_3")
+			(pintype "power_out")
+			(uuid "716576f7-04fa-4810-8f6a-4fbc1e677b0c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-xxxx_THT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "0ccd2ad0-4d14-4f97-94d3-87061bea493e")
+		(at 193.705 105.835)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C5"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "b5a2d4e8-54dd-4bf6-8124-ee637215a3b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "7570a181-271a-4f87-9cd0-96c7c1eb420e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4001b38f-e7be-434e-86e6-4cf370695c86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cbfe903-07d5-483e-8718-fe3b7ff4577e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8effd269-b0b8-46ae-bc96-29e7b2e8fbd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dd8ca28-aae3-4a36-a4f7-c74b02a71731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21ba6767-0571-4e65-92df-7e0c700c8171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5f537c6-e939-4794-8621-798e83c12496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc09ff6b-7032-4faf-8c5c-1627dc177236")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b135f92d-e924-48c7-afbf-2bcadd0ab41d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/e47cdc0d-02cb-4762-b4a1-d4761ef62e40")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "96ac3105-0c84-47d8-8bb7-1067a8b9f00d")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5ba39e7-7758-47bd-8763-c3cc29b9d484")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cbb7ffca-1f11-4550-bc37-c480325ca18d")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4a937357-5920-41ed-be2c-dfadf9415684")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "150bdd7e-d6b3-4d56-a3eb-880e7c6bfb1e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "/6.5V Dual Rail Power/+15V")
+			(pintype "passive")
+			(uuid "f6c68d7d-1263-4ce9-a5bb-308d943060ea")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "10d4847d-d2b7-4893-991e-30181374327e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "1f9f55b0-9a51-4066-b9df-d6c6ce4a17eb")
@@ -1051,6 +1490,445 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "313d3704-147b-48cd-8a4f-b0ee860fbe4b")
+		(at 193.705 109.185)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C6"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "02d63505-a9f8-4ec1-8d7c-e1c54270d06b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "8c7debf7-c7a5-47ca-b328-9a8ab7a04d76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2491c8b4-4fd1-40d3-812d-4856dfa46452")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "923da50e-78fd-4086-9f03-5afad9a7f9e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68e824e9-c330-4b24-ad1a-17e8868bf347")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acb4cea2-bb6b-4579-bd3d-60c1bc25704c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce254d78-92d2-40ce-9d37-e3a81952a27d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b4005ac-3e57-4dae-88aa-47da3d3868b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78237753-bc6c-4af4-b009-44807a1e4c86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "133c3475-83c3-4197-81a4-e0d7b84a2e61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/e1e68fbf-73d8-4aa1-a7a5-6aa9beeca4b0")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "be2aed8d-842d-46e6-a80f-7fcb1c2b5ce6")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d60c3f42-8654-49ab-aaec-2f1cba17bf84")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "9464f014-8e06-472f-bf04-bcc92115c817")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "472c2bdb-cc18-46ba-82bb-40378e811092")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "236f07a0-2c92-42d6-8bbb-dd0bae002856")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "/6.5V Dual Rail Power/+15V")
+			(pintype "passive")
+			(uuid "60423dc9-5b9d-4c28-b65f-175ed9102026")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "306bd1d8-3609-46ea-a476-56a4a48f924e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Converter_DCDC:Converter_DCDC_TRACO_TSR2-xxxx_THT"
+		(layer "F.Cu")
+		(uuid "43d65975-62d9-4695-b57d-b506c78a378c")
+		(at 200 129.21 90)
+		(descr "DCDC-Converter, TRACO, TSR2-xxxx, 2A, Rev. January 20. 2025, https://www.tracopower.com/products/tsr2.pdf")
+		(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2 2.54MM THT SIP-3 2A")
+		(property "Reference" "U2"
+			(at -0.14 -5.87 90)
+			(layer "F.SilkS")
+			(uuid "822a9f88-da48-4fb5-a11d-7c4f9714095f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TSR2-2465"
+			(at -0.14 11.03 90)
+			(layer "F.Fab")
+			(uuid "54cff17c-75ea-4856-9a30-add479717746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tracopower.com/products/tsr2.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d66ce51-8b87-4ec1-a91d-5c33b2151634")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca3fe071-78dc-4be1-bbca-d0a197b22b68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "converter_ACDC_DCDC"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b7b46692-ee3a-4d13-8508-3bab84bdb51c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Converter*DCDC*TRACO*TSR2*xxxx**THT*")
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/5d4135ac-68cd-4c7c-90a0-67dbc546e604")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 4.22 -5.03)
+			(end 4.22 10.19)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "708ef5da-d1a6-4928-93f5-cbbefbbed501")
+		)
+		(fp_line
+			(start -4.5 -5.03)
+			(end 4.22 -5.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "97bec69d-6a5b-493b-ba2f-b1892f6470db")
+		)
+		(fp_line
+			(start -4.5 -0.296)
+			(end -4.5 -5.03)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "daa1df87-2e86-44c0-9ea0-f0b93ea0211e")
+		)
+		(fp_line
+			(start 4.22 10.19)
+			(end -4.5 10.19)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66c35bcf-e83b-4d2c-a44d-50f14a2f3076")
+		)
+		(fp_line
+			(start -4.5 10.19)
+			(end -4.5 0.296)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01c8e1d7-db1e-4ccf-8e84-2731f2ee079f")
+		)
+		(fp_poly
+			(pts
+				(xy -4.5 0) (xy -4.97 0.34) (xy -4.97 -0.34)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "7198b479-1181-4abf-8bee-8547fd0ae33d")
+		)
+		(fp_rect
+			(start -4.64 -5.17)
+			(end 4.36 10.33)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0efdcd52-ce28-4a9d-a10d-243936f632ad")
+		)
+		(fp_poly
+			(pts
+				(xy -2.89 -4.42) (xy 3.61 -4.42) (xy 3.61 9.58) (xy -3.89 9.58) (xy -3.89 -3.42)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4ac45b53-7dba-4667-88cf-2a48cd37bb4a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.14 2.58 90)
+			(layer "F.Fab")
+			(uuid "e357e857-5d73-4a56-878d-36e2e80793db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(net "/6.5V Dual Rail Power/+15V")
+			(pinfunction "Vin_1")
+			(pintype "power_in")
+			(uuid "b095edf3-8e22-4c5c-8da1-577dd4daa0df")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "GND_2")
+			(pintype "power_in")
+			(uuid "0792af53-17a1-4795-99ba-620421fa765b")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 90)
+			(size 1.7 1.7)
+			(drill 1.1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(U2-Vout)")
+			(pinfunction "Vout_3")
+			(pintype "power_out")
+			(uuid "1c458bc4-06d3-4cc6-a271-79b09403d0fd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-xxxx_THT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "4e9ec520-b021-451a-9ce4-9c4afd627ed3")
@@ -1504,6 +2382,501 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Fuse:Fuse_Littelfuse-NANO2-451_453"
+		(layer "F.Cu")
+		(uuid "73eacbe0-391d-42b6-a0b3-ff3ab8dbbbc9")
+		(at 230 73.33)
+		(descr "Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf")
+		(tags "Fuse Nano2")
+		(property "Reference" "F2"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7f33abe5-4246-48e5-9534-2f1ed26af6fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 0 2.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "92109d82-8962-4172-86ea-9d89133ffd3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e07699d-9c85-48db-9144-89c218fce02e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FUSE BRD MNT 2A 125VAC/VDC 2SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f706f3e-8c2c-40ad-abac-aefc42f7db34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a1054e6-38e7-494e-a3f8-dedc9da82a0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0452002.MRL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7a49eec-b2e5-46cb-be72-773c564f5ffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "F2602TR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feb30d87-8550-4fc6-b201-7455d97c8d01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "710de8ac-916c-4789-9312-9aca6c8cee86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "2-SMD, Square End Block"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be7536a1-b674-473d-a8f4-40d933de4254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*Fuse*")
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/48bf9344-e257-43e9-9161-f6876235f74e")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.215 -1.455)
+			(end 1.215 -1.455)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0a307d60-91c0-47e9-b794-3bc5c9c905f9")
+		)
+		(fp_line
+			(start -1.215 1.455)
+			(end 1.215 1.455)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ed5aa5f-91ae-469b-b9d5-6746101dc0d7")
+		)
+		(fp_line
+			(start -3.69 -1.83)
+			(end 3.69 -1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "17eb3782-122d-4604-9dc6-45831d429566")
+		)
+		(fp_line
+			(start -3.69 1.83)
+			(end -3.69 -1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c81a6af8-9403-4970-a9e8-60315fc0fdf1")
+		)
+		(fp_line
+			(start 3.69 -1.83)
+			(end 3.69 1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61a40c48-52bb-4025-aa0a-8eb705c62235")
+		)
+		(fp_line
+			(start 3.69 1.83)
+			(end -3.69 1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9993dd75-79e3-4d04-9147-e0fc49db1b7e")
+		)
+		(fp_line
+			(start -3.05 -1.345)
+			(end -3.05 1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "29b736a6-0fa9-456d-ba92-105aca6749dc")
+		)
+		(fp_line
+			(start -3.05 -1.345)
+			(end 3.05 -1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef96e981-74f8-437e-8770-0ef70435a619")
+		)
+		(fp_line
+			(start -3.05 1.345)
+			(end 3.05 1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f089a697-fd1c-47fe-9a1d-31d9783d1b59")
+		)
+		(fp_line
+			(start 3.05 1.345)
+			(end 3.05 -1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6debbd9a-73b9-498c-bb14-0604d86855a9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "18aea8e3-be29-4832-8a59-44897c072544")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.455 0)
+			(size 1.96 3.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U3-Vout)")
+			(pintype "passive")
+			(uuid "9fc58d10-cdd1-4af5-9f6e-ad2b50500a42")
+		)
+		(pad "2" smd rect
+			(at 2.455 0)
+			(size 1.96 3.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/6.5V Dual Rail Power/-6.5V")
+			(pintype "passive")
+			(uuid "67567e57-562a-45b7-b02d-13c6cef7c48f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "7f712d3a-901d-4182-8064-7ad19048a9cd")
+		(at 193.705 99.135)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C3"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "06aedad4-c031-4b6e-a9a4-8f13a74151cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "44a23535-984c-41c2-ae84-8e009e5e9e71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a75f93a0-f094-4723-b38f-b055d9d6e08a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fe338d7-efd2-46f6-9b70-1bb4c4155430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9578c59f-21b4-493b-86a3-3a5f0005b0f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7a5c372-3b5b-46af-92b8-0d5d450497c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "837bcc4d-38cb-4371-9374-13a9bb8a0052")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1430d974-c448-4bcd-8403-2e1efc6e1c9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e00093ea-74df-40db-b5b0-5e0818b3897f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97bb99c5-a87a-47ce-b18a-9fe7b7e1dcc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/0b136cff-5248-4e73-b1e8-94a60f99c891")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46eedc86-cbab-4468-afe5-8d0f3e77fbbb")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "42265500-30c8-4eee-b608-aac181a59a36")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "56f20774-c274-4f95-8d0a-f186bcf65506")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3c8cfe43-360a-4850-b107-9fe4545ee768")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9f78b455-c66f-4840-9233-4b0c26c75b49")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "ca2e9daf-6903-47b1-8d49-a6a41dff4718")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "Net-(U3-Vout)")
+			(pintype "passive")
+			(uuid "efd99961-8644-48e1-9ad4-2aad9ad30844")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "8e14f680-1c02-4175-b72a-6cdc2cc3a556")
@@ -1737,6 +3110,450 @@
 			(uuid "324a37f5-4c4b-40af-a490-006482643bea")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "912c9b67-85e3-4bed-bdaa-74ef242b4e8c")
+		(at 193.705 102.485)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C4"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "7b7aed58-7507-4a46-8788-12bd707b743c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "3aa1bb5f-4e64-449a-81e0-ea0cb96c1c72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e9bdc91-7a22-47ab-ab78-d4b7e40efb08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b84d6969-1260-4a76-9c9f-dcf546ccb9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12e2a0e3-5e9c-490b-ab01-311c57b3052b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c123cf35-4192-4f01-b6a1-91b1bbc91c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b015627-0e3e-40f0-a64d-771662486fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35a3ad31-ce5f-4a48-aa96-2b3d45035257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d382ce6f-cea2-4c30-b4a0-7b924e69349b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d40cd4d9-d2b7-403c-b36a-e2d895fe5e38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/fabcd590-381c-4727-88f8-0cf2fee62076")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1848350e-6323-44e8-952b-ab2281149165")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36c69c83-41c2-4ec7-ae51-2387534e9cd4")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2cb1e658-71a0-40ae-a4ba-0f3eb9fe80c7")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "91d5c3e0-cbdd-4171-b325-b4f34d326ce5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2ddbc94d-71f9-44a3-a26b-0047cb5f3550")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "6ff139fb-ecd5-4d93-9e9f-fc845599a1c3")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "Net-(U3-Vout)")
+			(pintype "passive")
+			(uuid "b292d1e6-d8c4-43fb-8d7a-42f8c28b51c1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "9597f560-ed8d-42d0-a462-9ec760fb94ec")
+		(at 193.705 95.785)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C2"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "87a38c6e-88ef-4b2a-bb54-68e5637b09cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "7fba76e1-1b13-4aef-b0c3-8d713c8a65d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08fcd393-5f58-46fd-bad0-4556351b6e60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb85647c-17f2-44a6-afbd-c6ff5ca155ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "98b7e314-8f92-45f5-9ba5-7a047f754a4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54e1229-316b-492e-b6a0-b5ef26a93eb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "212c9a99-9f12-484e-bce7-2091df60f56b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb03272f-5404-47e7-81cf-90de25adfa21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6de429d-5d49-46e0-b9c0-d97f3789c6c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37f6bd64-cc3b-4d84-8cae-c377d16cc6b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/ce8aa827-f6b0-474a-8487-3043f47ff075")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c30fdbd0-a77d-4ffd-acad-6d72a10aa48a")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0a9327c-650f-4533-ae28-ecb1b954987b")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f1316a2d-c12f-4206-ad0a-a67922be1c51")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "557debb7-7dbf-4987-a16f-53a5bc50d196")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "e2ec3d12-db69-4fe4-9590-0b6b2cfae5b4")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "Net-(U2-Vout)")
+			(pintype "passive")
+			(uuid "c1cf34d9-93c9-4df5-a210-293d00225303")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "7a613e5b-1024-4924-8b34-1a039cd74e71")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "1_Conn_TH:DIN41612_ace_3x16_RA_Male"
 		(locked yes)
@@ -2478,7 +4295,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-15V")
+			(net "/6.5V Dual Rail Power/-15V")
 			(pinfunction "a2_a2")
 			(pintype "passive")
 			(uuid "ce9b77de-0fd3-4026-a158-9aa064a9573c")
@@ -2500,7 +4317,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-6.5V")
+			(net "/6.5V Dual Rail Power/-6.5V")
 			(pinfunction "a6_a6")
 			(pintype "passive")
 			(uuid "1bc2ba25-f2ba-4b47-9324-1466696ef0b2")
@@ -2621,7 +4438,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+6.5V")
+			(net "/6.5V Dual Rail Power/+6.5V")
 			(pinfunction "a28_a28")
 			(pintype "passive")
 			(uuid "4b77abb3-8b2d-40d8-b567-ea76600ec955")
@@ -2643,7 +4460,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+15V")
+			(net "/6.5V Dual Rail Power/+15V")
 			(pinfunction "a32_a32")
 			(pintype "passive")
 			(uuid "0040c6ed-dfd9-4f38-84e9-adabdc9668ee")
@@ -2654,7 +4471,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-15V")
+			(net "/6.5V Dual Rail Power/-15V")
 			(pinfunction "c2_c2")
 			(pintype "passive")
 			(uuid "9114d097-9176-4de6-94f3-55f1c9807c8d")
@@ -2676,7 +4493,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-6.5V")
+			(net "/6.5V Dual Rail Power/-6.5V")
 			(pinfunction "c6_c6")
 			(pintype "passive")
 			(uuid "b4a60eab-578d-4808-9cc8-20a6e7c4ffe7")
@@ -2797,7 +4614,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+6.5V")
+			(net "/6.5V Dual Rail Power/+6.5V")
 			(pinfunction "c28_c28")
 			(pintype "passive")
 			(uuid "1baff693-2460-4b68-b486-c21a7b457f52")
@@ -2819,7 +4636,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+15V")
+			(net "/6.5V Dual Rail Power/+15V")
 			(pinfunction "c32_c32")
 			(pintype "passive")
 			(uuid "683f2326-2397-463f-a7f1-2242be5faacb")
@@ -2830,7 +4647,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-15V")
+			(net "/6.5V Dual Rail Power/-15V")
 			(pinfunction "e2_e2")
 			(pintype "passive")
 			(uuid "cda4ea8c-3b20-4f85-9b8b-1578bc0294a8")
@@ -2852,7 +4669,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/-6.5V")
+			(net "/6.5V Dual Rail Power/-6.5V")
 			(pinfunction "e6_e6")
 			(pintype "passive")
 			(uuid "b1c0d5a7-7212-493b-9c64-785f5d670df2")
@@ -2973,7 +4790,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+6.5V")
+			(net "/6.5V Dual Rail Power/+6.5V")
 			(pinfunction "e28_e28")
 			(pintype "passive")
 			(uuid "35ae65d8-c75a-486c-9a29-05ea661e118f")
@@ -2995,7 +4812,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Conn_DIN41612_48pin/+15V")
+			(net "/6.5V Dual Rail Power/+15V")
 			(pinfunction "e32_e32")
 			(pintype "passive")
 			(uuid "07a8ab1a-088e-4838-9163-f845dcc12f43")
@@ -3143,6 +4960,723 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "b1b1689a-3b8f-4bd7-9852-7397e885af2f")
+		(at 193.705 115.885)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C8"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "9cd90cc7-40a0-4d0c-b5a2-6336c2362777")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "30b83c04-db31-47ef-b45c-cda9a5754509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b217f1bc-449d-4e7d-b4c6-3b413409bdbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "394e45b3-d1d2-4b3f-98b7-99890efbfba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f85dc763-c73c-4c75-bd11-68ca7823ce6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ffc46c6-d041-4c17-bbd8-27a2c4427eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8e360e0-19a6-4315-a823-bb78add60a1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81fe7642-5def-4a46-a796-e0bb1347cd02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b84c7f5-3b9b-4853-9027-dfb66309359c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "054ce26a-b164-426d-b50b-b86fa31bc545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/40babf19-2fb7-41a9-8444-83eeb22869a4")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94284f42-f06f-4e1a-a883-e9d106bd5973")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29d22d92-3c3c-4918-b020-70d1025a8f4a")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a23977e9-b2d1-4108-a182-85a1a03aeea0")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f985b085-a6af-44e8-ba57-34311af02adc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "66767317-26b5-4bbd-9419-ab43b2488e00")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "23f66460-0d0b-4d41-80bc-dff10e51c68b")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "/6.5V Dual Rail Power/-15V")
+			(pintype "passive")
+			(uuid "33ec9bb2-8ffb-40de-ac82-f8f566ad0271")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Fuse:Fuse_Littelfuse-NANO2-451_453"
+		(layer "F.Cu")
+		(uuid "d2214f86-eed8-4996-a185-3a1a99bf9078")
+		(at 230 129.21)
+		(descr "Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf")
+		(tags "Fuse Nano2")
+		(property "Reference" "F1"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4ae3e426-8a10-4367-8dff-7e5b06efd5cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 0 2.7 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "24e417a4-702f-4544-a117-e1290e9df50c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd5cb1e-8125-4924-b023-dd1372e51971")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "FUSE BRD MNT 2A 125VAC/VDC 2SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6bf016d-6f51-4623-8312-c9098a6cf286")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f01b7bcb-5d41-4e43-a41c-24fc5354415e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0452002.MRL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "414b8bcc-04e2-404b-abe8-923441dc65bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "F2602TR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf867f46-0c30-4336-9b5a-3e47e4c631d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa08df9-25c7-44da-b447-211bb5a050ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "2-SMD, Square End Block"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b9374cb-24f0-493d-a0c3-aa0c67f64bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*Fuse*")
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/00000d8d-a144-4773-8369-82409b59b987")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.215 -1.455)
+			(end 1.215 -1.455)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc0b907a-03eb-42d6-abff-b68356013135")
+		)
+		(fp_line
+			(start -1.215 1.455)
+			(end 1.215 1.455)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67fe63d5-ad6a-438a-81c0-4d82bbd28ab0")
+		)
+		(fp_line
+			(start -3.69 -1.83)
+			(end 3.69 -1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7789ca81-1837-4fab-9de3-db2de4e386bd")
+		)
+		(fp_line
+			(start -3.69 1.83)
+			(end -3.69 -1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b0d8ab3c-a6fe-4ccd-a037-ee86509dbcf9")
+		)
+		(fp_line
+			(start 3.69 -1.83)
+			(end 3.69 1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67dea5d0-5ddf-4a73-ac0f-982ca6267ca9")
+		)
+		(fp_line
+			(start 3.69 1.83)
+			(end -3.69 1.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "139e5bb5-f6a4-43f9-8563-79af460feb2e")
+		)
+		(fp_line
+			(start -3.05 -1.345)
+			(end -3.05 1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0fcfda72-efd5-4f27-908b-5db6d241d9b8")
+		)
+		(fp_line
+			(start -3.05 -1.345)
+			(end 3.05 -1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36b21ee4-f6fc-410c-948d-a6125c97e541")
+		)
+		(fp_line
+			(start -3.05 1.345)
+			(end 3.05 1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7e90f591-bf31-429e-8031-651b0af367da")
+		)
+		(fp_line
+			(start 3.05 1.345)
+			(end 3.05 -1.345)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3e29d3b2-c42e-4a59-b6e4-d1f65131fc5b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1e288cbe-bd85-4d9f-b7dc-f5aee0ea11a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.455 0)
+			(size 1.96 3.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U2-Vout)")
+			(pintype "passive")
+			(uuid "720a6434-552f-478e-b283-19d7f0e431e8")
+		)
+		(pad "2" smd rect
+			(at 2.455 0)
+			(size 1.96 3.15)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "/6.5V Dual Rail Power/+6.5V")
+			(pintype "passive")
+			(uuid "69b16c4a-370c-4ade-bda6-c35798ed18f3")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "e348d0ca-0e48-4180-a5ad-621e270fe94b")
+		(at 193.705 92.435)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C1"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "3d839697-59b4-4b94-b45e-19e89f431d20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "fc860401-a430-45a0-bf81-215a5e3f322b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaa5de0c-cea2-4868-97bc-b09e165fa21e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5898421-d22e-471f-b85d-de7a862acc66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "16fb1013-6ae8-47f1-9cfc-7c06931d2bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bbe7482-7d0e-4e45-a582-c65a5aa17179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82827675-eda0-4db9-b18c-1cea06a14b73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fda68fec-6db9-43c4-ad58-0c3ad166db33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "559ec27d-d2ba-4050-94b3-cdade2a1ff60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bc979f3-1618-4ee3-8973-7960a254d04a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/be5f14d2-3feb-4e08-8a06-cf708aae7413")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2305714e-970c-479b-8657-3e01becc4a38")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "acd85a42-5268-4fdf-9c7a-91643db06abd")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5e10675a-6c8f-49f6-a6e6-e53c7ee93619")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e1082460-afa4-4303-bf61-404daee9d459")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a5774611-22fc-43e9-be1f-270b88c51f1c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "Net-(U2-Vout)")
+			(pintype "passive")
+			(uuid "c96ea97f-8bc4-4b6e-a70f-91fa3c00d0a5")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "cd566359-720d-426d-97af-d7fb324e024d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
 		(layer "F.Cu")
 		(uuid "f57ad310-858a-4406-99c9-912aaf3b7575")
@@ -3282,6 +5816,228 @@
 			(uuid "85a85a24-8d6f-475e-8dde-df29ef0cb63b")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "fca58d58-cd42-49e1-ad0c-44d796ec512c")
+		(at 193.705 112.535)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor handsolder")
+		(property "Reference" "C7"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "b6204fc6-b7cf-48b2-910f-1e425c466b22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 0 1.85 0)
+			(layer "F.Fab")
+			(uuid "b4c5e892-70f0-4c0e-b2f3-309d2599bfa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cadcb402-a689-4d78-9b02-f123670c55a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "679ea8f4-349c-4995-858e-9653be1823eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ee9e7ca-3855-45f8-b025-064e744157ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c8f0383-bf95-45b1-9562-4f4a046c8c93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "499dd867-a450-462e-aaa4-4cd4ecf137d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a987f56-4d98-47af-994a-0ac8050d0dbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13634980-0b8f-454a-85d3-72cabaad0fc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9dd8ca0-5d8a-4bbb-b307-f3641e834db3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d4756eb8-e5f6-46b5-beee-cd050daeaa88/6fa472b7-bb7d-47df-a380-282cb1a75f8e")
+		(sheetname "/6.5V Dual Rail Power/")
+		(sheetfile "6.5V_dual_rail_power.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69e3a97d-c6f1-4ab8-81a8-5486981ab0f4")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08084c8a-ed0c-4478-ac25-bea40bef7a83")
+		)
+		(fp_rect
+			(start -2.48 -1.15)
+			(end 2.48 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cddf850b-3aad-4d2f-bf6a-9799e8aa1073")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e6f995dc-d1e6-4ecb-8db2-5f999db7561a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "38612b1e-ac55-44c2-98c5-b9b169a4c9a3")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "GND")
+			(pintype "passive")
+			(uuid "8383021c-c204-4e49-a9c9-ffb77f4890b1")
+		)
+		(pad "2" smd roundrect
+			(at 1.5625 0)
+			(size 1.325 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.188679)
+			(net "/6.5V Dual Rail Power/-15V")
+			(pintype "passive")
+			(uuid "65df4d7a-6d53-40bc-b473-d0ff2d7167a9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_rect
 		(start 100 50.5)
@@ -3621,32 +6377,48 @@
 		(end 249.38 139.37)
 		(width 3)
 		(layer "F.Cu")
-		(net "/Conn_DIN41612_48pin/+15V")
+		(net "/6.5V Dual Rail Power/+15V")
 		(uuid "ebf4d6be-15b5-4710-ac10-761f36daf145")
-	)
-	(segment
-		(start 254.46 129.21)
-		(end 249.38 129.21)
-		(width 3)
-		(layer "F.Cu")
-		(net "/Conn_DIN41612_48pin/+6.5V")
-		(uuid "62004252-04de-490d-8acc-674155eb062f")
-	)
-	(segment
-		(start 254.46 73.33)
-		(end 249.38 73.33)
-		(width 3)
-		(layer "F.Cu")
-		(net "/Conn_DIN41612_48pin/-6.5V")
-		(uuid "2a8984f9-3659-45c9-ac6f-7a27eb31b814")
 	)
 	(segment
 		(start 254.46 63.17)
 		(end 249.38 63.17)
 		(width 3)
 		(layer "F.Cu")
-		(net "/Conn_DIN41612_48pin/-15V")
+		(net "/6.5V Dual Rail Power/-15V")
 		(uuid "ba36ef41-5e83-4385-80c5-126468e25ed4")
+	)
+	(segment
+		(start 254.46 129.21)
+		(end 249.38 129.21)
+		(width 3)
+		(layer "F.Cu")
+		(net "/6.5V Dual Rail Power/+6.5V")
+		(uuid "62004252-04de-490d-8acc-674155eb062f")
+	)
+	(segment
+		(start 249.38 129.21)
+		(end 232.455 129.21)
+		(width 3)
+		(layer "F.Cu")
+		(net "/6.5V Dual Rail Power/+6.5V")
+		(uuid "a044cced-218b-44a1-9ade-9ee514f35ccd")
+	)
+	(segment
+		(start 254.46 73.33)
+		(end 249.38 73.33)
+		(width 3)
+		(layer "F.Cu")
+		(net "/6.5V Dual Rail Power/-6.5V")
+		(uuid "2a8984f9-3659-45c9-ac6f-7a27eb31b814")
+	)
+	(segment
+		(start 249.38 73.33)
+		(end 232.455 73.33)
+		(width 3)
+		(layer "F.Cu")
+		(net "/6.5V Dual Rail Power/-6.5V")
+		(uuid "b72f61fc-3161-4fe5-8161-d767e2c029ca")
 	)
 	(zone
 		(net "GND")

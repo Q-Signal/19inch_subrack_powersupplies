@@ -5,6 +5,106 @@
 	(uuid "d2bb73ea-a6bc-4588-b3f4-545ae2e25abc")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 114.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d4634e-8e78-4aef-95ad-166dd676a55d")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdff31d-efc1-4778-b34f-ebbff331d47e")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df6089d-ac6f-4dec-9087-20759dae21ec")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5beb9f6a-1246-49d5-b383-00cfac720a16")
+	)
+	(wire
+		(pts
+			(xy 203.2 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797fb747-e814-4993-8bd1-b710f35f6762")
+	)
+	(wire
+		(pts
+			(xy 203.2 101.6) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94e4e40-131b-40a1-a702-513c8a157ac7")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c842027b-8018-4839-b9f2-27bee9c229ac")
+	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20c1cec-2a0f-4381-a881-853b811b3a6b")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e711f17c-627e-4279-8d4c-01cbb650e6b4")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e2247f-a4df-4901-82e8-9135af0afd1a")
+	)
 	(sheet
 		(at 254.254 25.4)
 		(size 17.526 18.288)
@@ -151,7 +251,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 43 82 1)
 		)
 		(uuid "d4756eb8-e5f6-46b5-beee-cd050daeaa88")
 		(property "Sheetname" "6.5V Dual Rail Power"
@@ -167,6 +267,7 @@
 		)
 		(property "Sheetfile" "6.5V_dual_rail_power.kicad_sch"
 			(at 177.8 102.1846 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -174,6 +275,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+15V" input
+			(at 177.8 76.2 180)
+			(uuid "298a41de-9cb2-4332-b904-16ea92373ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+6.5V" output
+			(at 190.5 101.6 270)
+			(uuid "77cc0d17-053c-4a0d-afdf-e2f046434b77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-6.5V" output
+			(at 203.2 101.6 270)
+			(uuid "5652a359-0a90-4f5a-b33b-0d7088dfeaeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-15V" input
+			(at 177.8 88.9 180)
+			(uuid "0bedcec7-ea41-4dea-8a74-ff27267fcde7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
