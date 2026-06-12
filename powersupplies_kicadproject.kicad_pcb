@@ -434,15 +434,15 @@
 			(uuid "716576f7-04fa-4810-8f6a-4fbc1e677b0c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-xxxx_THT.step"
+		(model "${MY3DMODELS}/tsr2_3d_drawing.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.5 10)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -180 -90)
 			)
 		)
 	)
@@ -2130,15 +2130,15 @@
 			(uuid "1c458bc4-06d3-4cc6-a271-79b09403d0fd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR2-xxxx_THT.step"
+		(model "${MY3DMODELS}/tsr2_3d_drawing.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -2.5 10)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -180 -0 -90)
 			)
 		)
 	)
@@ -2897,7 +2897,7 @@
 			(uuid "67567e57-562a-45b7-b02d-13c6cef7c48f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+		(model "${MY3DMODELS}/0451Series_LTF.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5952,7 +5952,7 @@
 			(uuid "69b16c4a-370c-4ade-bda6-c35798ed18f3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+		(model "${MY3DMODELS}/0451Series_LTF.step"
 			(offset
 				(xyz 0 0 0)
 			)
