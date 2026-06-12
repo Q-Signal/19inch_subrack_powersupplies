@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d2bb73ea-a6bc-4588-b3f4-545ae2e25abc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 254.254 25.4)
+		(size 17.526 18.288)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9de36560-3dee-4292-9bab-ab08ea3ae282")
+		(property "Sheetname" "Mounting Holes"
+			(at 254.254 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MountingHoles.kicad_sch"
+			(at 254.254 44.2726 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Eurocard_48pin_AMO_Blank"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 44.45 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 123 190 255 1)
+		)
+		(uuid "b247aa19-c6db-40d4-9578-4858bd0a46c8")
+		(property "Sheetname" "Conn_DIN41612_48pin"
+			(at 127 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conn_DIN41612_48pin.kicad_sch"
+			(at 127 127.5846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Eurocard_48pin_AMO_Blank"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
