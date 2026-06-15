@@ -430,6 +430,540 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "1_TH_LED:LED_Green_RA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Green"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "1_LED_TH:LED_TH_RA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-GD.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "TH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "WP1503CB/GD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "754-1555-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RS Stock Number" "-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part Number" "C5879101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Number" "C5879101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Green_RA_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Green_RA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "1_TH_LED:LED_Yellow_RA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Yellow"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "1_LED_TH:LED_TH_RA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-YD.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "TH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "WP1503CB/YD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "754-1714-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "RS Stock Number" "-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part Number" "C5879101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part Number" "C5879101"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Yellow_RA_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Yellow_RA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Converter_DCDC:TSR2-2465"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -782,6 +1316,372 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DK_Yageo_RT_1206_Resistors:R_1K5_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "1K5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "RES SMD 1.5K OHM 0.1% 1/4W 1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "RT1206BRE071K5L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "13-RT1206BRE071K5LTR-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Type" "SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Package/Footprint" "1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(symbol "R_1K5_4_0_1"
+				(rectangle
+					(start -2.54 0.762)
+					(end 2.54 -0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1K5_4_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DK_Yageo_RT_1206_Resistors:R_680R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "680R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.889 0.889)
+						(thickness 0.1)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "RES SMD 680 OHM 1% 1/4W 1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "RT1206FRE07680RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "13-RT1206FRE07680RLTR-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Type" "SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Package/Footprint" "1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(symbol "R_680R_0_1"
+				(rectangle
+					(start -2.54 0.762)
+					(end 2.54 -0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_680R_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -899,13 +1799,7 @@
 		)
 	)
 	(junction
-		(at 149.86 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f03539c-535c-4032-af9f-8d5fd987415d")
-	)
-	(junction
-		(at 81.28 101.6)
+		(at 81.28 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c2d6ab1-a472-4185-b12d-deb8e5ea9cc5")
@@ -917,10 +1811,16 @@
 		(uuid "1dda0eb8-17ce-4153-bbac-f79b1aca10ab")
 	)
 	(junction
-		(at 133.35 76.2)
+		(at 133.35 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252a20e3-67bc-4aa9-8fa2-e8f24f6329d3")
+	)
+	(junction
+		(at 177.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "286fdf31-3a15-4ebf-994b-22bd37f31f5b")
 	)
 	(junction
 		(at 57.15 88.9)
@@ -929,58 +1829,76 @@
 		(uuid "29684e4a-ed86-428c-8bd2-0d22d5498d2b")
 	)
 	(junction
-		(at 44.45 76.2)
+		(at 27.94 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f8b555e-c187-4825-800c-015e8d3199b6")
+		(uuid "3462683a-bfc8-42af-943b-042d61617bc0")
 	)
 	(junction
-		(at 44.45 111.76)
+		(at 149.86 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5072319c-f4ef-4b83-81c4-af0901593624")
+		(uuid "461c5bc2-cb80-435b-91a9-d7d908858ddd")
 	)
 	(junction
-		(at 57.15 101.6)
+		(at 177.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7a46dc-bea8-42f7-a636-9981d97913a6")
+	)
+	(junction
+		(at 27.94 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f48ede1-e386-4326-90ca-fec861681cb6")
+	)
+	(junction
+		(at 57.15 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69790f45-8676-444d-a161-e22947559741")
 	)
 	(junction
-		(at 57.15 76.2)
+		(at 57.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e39ecc0-11d6-40ac-8096-b3ac673a5caa")
 	)
 	(junction
-		(at 93.98 111.76)
+		(at 93.98 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "768a4df9-ecaf-417f-a8a6-8f029a72dc78")
 	)
 	(junction
-		(at 93.98 101.6)
+		(at 93.98 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76bc1bac-3ff7-4b20-a200-393d83d42dca")
 	)
 	(junction
-		(at 101.6 88.9)
+		(at 44.45 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "882dd981-c3ed-464f-9f6f-91510f99c5e4")
+		(uuid "8d89a9f5-4e4b-4a97-a9a1-c5155607d0ca")
 	)
 	(junction
-		(at 81.28 111.76)
+		(at 81.28 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f345ffc-2a0c-478d-999a-3446b0751b72")
 	)
 	(junction
-		(at 93.98 76.2)
+		(at 93.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f7b4b1a-2760-4647-9512-98a81bf22d4b")
+	)
+	(junction
+		(at 177.8 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972af293-294a-482b-a77e-c11d0d498712")
 	)
 	(junction
 		(at 93.98 88.9)
@@ -989,31 +1907,31 @@
 		(uuid "977ad7be-c637-4845-bd36-fe7a5d169b5e")
 	)
 	(junction
+		(at 44.45 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e8440a3-8ff9-4409-835e-5c0392a6092b")
+	)
+	(junction
 		(at 81.28 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0aa21e6-282d-4f72-91f2-69065b970198")
 	)
 	(junction
-		(at 57.15 111.76)
+		(at 57.15 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a41ec950-6149-4b54-b7fa-5ab483211cb0")
 	)
 	(junction
-		(at 81.28 76.2)
+		(at 81.28 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b565886d-b7c9-4278-9aed-d13808c8019e")
 	)
 	(junction
-		(at 101.6 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6f2dc75-db4f-4221-b029-9bdb5196b88f")
-	)
-	(junction
-		(at 133.35 101.6)
+		(at 133.35 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdab0cf3-1e05-478c-98da-485987eadd87")
@@ -1025,30 +1943,38 @@
 		(uuid "c7ce72a6-ddea-41ce-8031-399266c229dd")
 	)
 	(junction
+		(at 44.45 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9e84ce2-6116-4ddc-84d1-fbe9dbd8fee3")
+	)
+	(junction
 		(at 133.35 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35a106c-d586-4c81-b57d-8456b21ad54d")
 	)
 	(junction
-		(at 149.86 76.2)
+		(at 27.94 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d656a873-b895-446a-9b93-1e4f249cfa65")
+		(uuid "d47d722f-e4c4-4205-9f49-4cf42fd90cfc")
+	)
+	(junction
+		(at 149.86 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4e6397-b0ea-4a05-991a-5b6ae10e14c0")
+	)
+	(junction
+		(at 44.45 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff5f5050-ede6-4d05-9588-87c338974e04")
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 93.98 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0425aebc-939a-42ed-a861-0eff55b237f8")
-	)
-	(wire
-		(pts
-			(xy 44.45 83.82) (xy 44.45 88.9)
+			(xy 44.45 71.12) (xy 44.45 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1058,13 +1984,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 81.28 76.2)
+			(xy 76.2 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07b24fac-c8ff-41d1-9cf0-564fd9df3a7f")
+	)
+	(wire
+		(pts
+			(xy 27.94 63.5) (xy 27.94 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9aba08-c534-4442-ae50-1a37f3c7c365")
 	)
 	(wire
 		(pts
@@ -1078,7 +2014,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 81.28 88.9)
+			(xy 81.28 71.12) (xy 81.28 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 111.76) (xy 93.98 111.76)
+			(xy 81.28 124.46) (xy 93.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +2034,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 57.15 101.6)
+			(xy 27.94 85.09) (xy 27.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1baaa10a-80af-482a-ae80-94e92854d7de")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 133.35 78.74)
+			(xy 133.35 63.5) (xy 133.35 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 149.86 101.6)
+			(xy 133.35 114.3) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 91.44)
+			(xy 149.86 88.9) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 133.35 101.6)
+			(xy 133.35 111.76) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1148,17 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d33a6c-746a-4a11-800d-54768fa8a7bb")
-	)
-	(wire
-		(pts
-			(xy 124.46 101.6) (xy 133.35 101.6)
+			(xy 124.46 114.3) (xy 133.35 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 93.98 76.2)
+			(xy 81.28 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1188,17 +2124,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 104.14 101.6)
+			(xy 177.8 63.5) (xy 177.8 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48f6a40b-e036-4949-8066-8de6323907fc")
+		(uuid "4aba8b49-649e-413b-8280-14b185b19935")
 	)
 	(wire
 		(pts
-			(xy 133.35 88.9) (xy 133.35 91.44)
+			(xy 133.35 88.9) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1208,17 +2144,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 88.9) (xy 93.98 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "526edef6-16c9-4746-aca4-ed15bc65ce2a")
-	)
-	(wire
-		(pts
-			(xy 114.3 83.82) (xy 114.3 88.9)
+			(xy 114.3 71.12) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +2154,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 149.86 78.74)
+			(xy 177.8 114.3) (xy 185.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9f6421-e5a2-41aa-98da-e009612f3b73")
+	)
+	(wire
+		(pts
+			(xy 149.86 63.5) (xy 149.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76) (xy 44.45 111.76)
+			(xy 20.32 124.46) (xy 27.94 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +2184,17 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 170.18 101.6)
+			(xy 165.1 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65735e64-91f3-4b10-91b1-3c03b3075ed0")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 157.48 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +2204,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 133.35 88.9)
+			(xy 133.35 73.66) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +2214,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 104.14) (xy 44.45 101.6)
+			(xy 44.45 116.84) (xy 44.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +2224,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 93.98 88.9)
+			(xy 27.94 113.03) (xy 27.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a925257-c586-43e7-9817-dac437f3e4c8")
+	)
+	(wire
+		(pts
+			(xy 27.94 124.46) (xy 44.45 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e03a788-cada-4d10-94f2-2832f76414c2")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 93.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1288,17 +2254,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 81.28 88.9)
+			(xy 165.1 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e55810f-0871-4ec7-98b4-6629aa4d0e66")
+		(uuid "8f64dedf-95f4-45ef-8c6e-1b3fe293b669")
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 149.86 76.2)
+			(xy 133.35 63.5) (xy 149.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +2274,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 111.76) (xy 81.28 111.76)
+			(xy 177.8 110.49) (xy 177.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db2e722-dbb8-47c6-80d3-7f5a7d00c28b")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 81.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +2294,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 76.2) (xy 68.58 76.2)
+			(xy 57.15 63.5) (xy 68.58 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1328,17 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 88.9) (xy 101.6 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a59096ea-22e6-45e8-bd61-f7476954578a")
-	)
-	(wire
-		(pts
-			(xy 44.45 88.9) (xy 57.15 88.9)
+			(xy 44.45 88.9) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 149.86 101.6)
+			(xy 149.86 111.76) (xy 149.86 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +2324,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 76.2) (xy 57.15 76.2)
+			(xy 177.8 85.09) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20349ba-e9c5-413b-b577-37bd823563a9")
+	)
+	(wire
+		(pts
+			(xy 44.45 63.5) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +2344,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 101.6 101.6)
+			(xy 177.8 88.9) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b781c33a-c7de-4b4a-819e-65feb47199ae")
+	)
+	(wire
+		(pts
+			(xy 44.45 88.9) (xy 44.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 114.3 111.76)
+			(xy 93.98 124.46) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 114.3 111.76)
+			(xy 114.3 121.92) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 133.35 76.2)
+			(xy 124.46 63.5) (xy 133.35 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 101.6) (xy 57.15 104.14)
+			(xy 57.15 114.3) (xy 57.15 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 111.76) (xy 68.58 111.76)
+			(xy 57.15 124.46) (xy 68.58 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 109.22) (xy 81.28 111.76)
+			(xy 81.28 121.92) (xy 81.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1438,17 +2424,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 101.6) (xy 81.28 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1f1c81c-d98e-40aa-b978-333bfe297c3c")
-	)
-	(wire
-		(pts
-			(xy 149.86 76.2) (xy 170.18 76.2)
+			(xy 149.86 63.5) (xy 157.48 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1458,17 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 101.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe9677e-f9df-4cb4-bfec-1f52f27a7e26")
-	)
-	(wire
-		(pts
-			(xy 44.45 111.76) (xy 57.15 111.76)
+			(xy 44.45 124.46) (xy 57.15 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +2444,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 83.82) (xy 57.15 88.9)
+			(xy 27.94 88.9) (xy 44.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df167bce-4606-42fe-960f-e4f6dd61941a")
+	)
+	(wire
+		(pts
+			(xy 57.15 71.12) (xy 57.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 149.86 88.9)
+			(xy 149.86 73.66) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +2474,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 104.14 76.2)
+			(xy 177.8 63.5) (xy 185.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f246da82-d3b0-4f94-84f6-0d30c584e99c")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 44.45 76.2)
+			(xy 21.59 63.5) (xy 27.94 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +2504,37 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 109.22) (xy 93.98 111.76)
+			(xy 27.94 88.9) (xy 27.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a8eac-0382-4123-840b-4e6269579f84")
+	)
+	(wire
+		(pts
+			(xy 27.94 63.5) (xy 44.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63be201-c805-44d7-addc-059c3fde57a1")
+	)
+	(wire
+		(pts
+			(xy 177.8 88.9) (xy 184.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77ead39-aab8-4e92-89cd-f9eff8a1ef9e")
+	)
+	(wire
+		(pts
+			(xy 93.98 121.92) (xy 93.98 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +2554,7 @@
 	)
 	(hierarchical_label "-6.5V"
 		(shape output)
-		(at 177.8 101.6 0)
+		(at 185.42 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1549,7 +2565,7 @@
 	)
 	(hierarchical_label "+6.5V"
 		(shape output)
-		(at 177.8 76.2 0)
+		(at 185.42 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1560,7 +2576,7 @@
 	)
 	(hierarchical_label "-15V"
 		(shape input)
-		(at 41.91 111.76 180)
+		(at 20.32 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1571,7 +2587,7 @@
 	)
 	(hierarchical_label "+15V"
 		(shape input)
-		(at 40.64 76.2 180)
+		(at 21.59 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1582,7 +2598,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 133.35 95.25 0)
+		(at 133.35 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1593,7 +2609,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b136cff-5248-4e73-b1e8-94a60f99c891")
 		(property "Reference" "C3"
-			(at 135.89 93.9863 0)
+			(at 135.89 106.6863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1605,7 +2621,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 135.89 96.5263 0)
+			(at 135.89 109.2263 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1617,7 +2633,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1629,7 +2645,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +2657,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +2669,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1665,7 +2681,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1677,7 +2693,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1689,7 +2705,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1701,7 +2717,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 133.35 95.25 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1728,8 +2744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 57.15 107.95 0)
+		(lib_id "1_TH_LED:LED_Yellow_RA")
+		(at 177.8 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1737,9 +2753,487 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "322d46cf-566c-4ab6-95c7-248f4ed08b71")
-		(property "Reference" "C12"
-			(at 59.69 106.6863 0)
+		(fields_autoplaced yes)
+		(uuid "1a73833e-4e98-4396-968f-b459a05eb545")
+		(property "Reference" "D2"
+			(at 181.61 96.8374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Yellow"
+			(at 181.61 99.3774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1_LED_TH:LED_TH_RA"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-YD.pdf"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "TH"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "WP1503CB/YD"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "754-1714-ND"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Stock Number" "-"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5879101"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5879101"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88d2c23d-098a-4031-bd3f-0c760eeea892")
+		)
+		(pin "1"
+			(uuid "b63ce71e-0110-456f-a97f-5b15ef92737f")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_TH_LED:LED_Yellow_RA")
+		(at 27.94 99.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f3bd240-91f5-475d-a470-fad2bf5bcf6d")
+		(property "Reference" "D4"
+			(at 31.75 99.3774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Yellow"
+			(at 31.75 101.9174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1_LED_TH:LED_TH_RA"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-YD.pdf"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "TH"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "WP1503CB/YD"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "754-1714-ND"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Stock Number" "-"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5879101"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5879101"
+			(at 27.94 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b09418ea-961d-4cbd-940b-7140008236e1")
+		)
+		(pin "1"
+			(uuid "db719654-a498-4a67-a747-905454aee674")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_TH_LED:LED_Green_RA")
+		(at 27.94 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2250295d-3d3e-403b-9b1e-2eca3f3a77a8")
+		(property "Reference" "D3"
+			(at 31.75 71.4374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 31.75 73.9774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1_LED_TH:LED_TH_RA"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-GD.pdf"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "TH"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "WP1503CB/GD"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "754-1555-ND"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Stock Number" "-"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5879101"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5879101"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52271a7a-42c7-4850-9ff9-387fc8a8dc8e")
+		)
+		(pin "1"
+			(uuid "8fac5363-460d-4434-8ccb-3615a6f693a0")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DK_Yageo_RT_1206_Resistors:R_680R")
+		(at 177.8 105.41 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24751240-3c50-4bf9-9611-bb84ee3bcb2a")
+		(property "Reference" "R1"
+			(at 180.34 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1747,23 +3241,23 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 59.69 109.2263 0)
+		(property "Value" "680R"
+			(at 180.34 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.889 0.889)
+					(thickness 0.1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 57.15 107.95 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,8 +3268,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 57.15 107.95 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,8 +3280,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 57.15 107.95 0)
+		(property "Description" "RES SMD 680 OHM 1% 1/4W 1206"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1798,8 +3292,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 57.15 107.95 0)
+		(property "Manufacturer" "Yageo"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1810,8 +3304,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 57.15 107.95 0)
+		(property "Manufacturer Part Number" "RT1206FRE07680RL"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,8 +3316,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 57.15 107.95 0)
+		(property "DigiKey Part Number" "13-RT1206FRE07680RLTR-ND"
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +3329,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 57.15 107.95 0)
+			(at 177.8 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +3341,153 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 57.15 107.95 0)
+			(at 177.8 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b87f26d-2585-4ddd-8151-8f68c8c47167")
+		)
+		(pin "2"
+			(uuid "35242029-e022-44a4-a0c2-d328cd5fd2a5")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
+		(at 57.15 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "322d46cf-566c-4ab6-95c7-248f4ed08b71")
+		(property "Reference" "C12"
+			(at 59.69 119.3863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 59.69 121.9263 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 57.15 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 57.15 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1875,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 93.98 105.41 0)
+		(at 93.98 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1886,7 +3526,7 @@
 		(fields_autoplaced yes)
 		(uuid "40babf19-2fb7-41a9-8444-83eeb22869a4")
 		(property "Reference" "C8"
-			(at 96.52 104.1463 0)
+			(at 96.52 116.8463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1898,7 +3538,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 96.52 106.6863 0)
+			(at 96.52 119.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1910,7 +3550,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +3562,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +3574,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +3586,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1958,7 +3598,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +3610,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1982,7 +3622,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,7 +3634,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 93.98 105.41 0)
+			(at 93.98 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +3662,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 88.9 90)
+		(at 184.15 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2033,7 +3673,7 @@
 		(fields_autoplaced yes)
 		(uuid "521b48f0-c419-41ac-b46f-5c03f9e13fba")
 		(property "Reference" "#PWR013"
-			(at 184.15 88.9 0)
+			(at 190.5 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +3684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 88.8999 90)
+			(at 187.96 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2055,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 88.9 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +3706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 88.9 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 88.9 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2101,7 +3741,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TSR2-2465")
-		(at 114.3 78.74 0)
+		(at 114.3 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2112,7 +3752,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d4135ac-68cd-4c7c-90a0-67dbc546e604")
 		(property "Reference" "U2"
-			(at 114.3 68.58 0)
+			(at 114.3 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2122,7 +3762,7 @@
 			)
 		)
 		(property "Value" "TSR2-2465"
-			(at 114.3 71.12 0)
+			(at 114.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2132,7 +3772,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR2-xxxx_THT"
-			(at 114.3 84.836 0)
+			(at 114.3 72.136 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tsr2.pdf"
-			(at 114.3 82.55 0)
+			(at 114.3 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +3795,7 @@
 			)
 		)
 		(property "Description" "2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-			(at 114.3 78.74 0)
+			(at 114.3 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,8 +3824,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 81.28 105.41 0)
+		(lib_id "DK_Yageo_RT_1206_Resistors:R_1K5_4")
+		(at 27.94 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2194,9 +3834,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6fa472b7-bb7d-47df-a380-282cb1a75f8e")
-		(property "Reference" "C7"
-			(at 83.82 104.1463 0)
+		(uuid "63cf0631-884b-43f0-8ccd-ba5fa3a1da44")
+		(property "Reference" "R3"
+			(at 30.48 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2204,23 +3844,23 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 83.82 106.6863 0)
+		(property "Value" "680R"
+			(at 30.48 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.889 0.889)
+					(thickness 0.1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 81.28 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,8 +3871,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 81.28 105.41 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,8 +3883,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 81.28 105.41 0)
+		(property "Description" "RES SMD 1.5K OHM 0.1% 1/4W 1206"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2255,8 +3895,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 81.28 105.41 0)
+		(property "Manufacturer" "Yageo"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2267,8 +3907,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 81.28 105.41 0)
+		(property "Manufacturer Part Number" "RT1206BRE071K5L"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,8 +3919,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 81.28 105.41 0)
+		(property "DigiKey Part Number" "13-RT1206BRE071K5LTR-ND"
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +3932,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 81.28 105.41 0)
+			(at 27.94 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2304,7 +3944,154 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 81.28 105.41 0)
+			(at 27.94 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c69bb5b-36e3-43c8-bc49-f52c1fca0999")
+		)
+		(pin "2"
+			(uuid "579847ec-f398-447d-9496-5bc4bf2711a3")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
+		(at 81.28 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fa472b7-bb7d-47df-a380-282cb1a75f8e")
+		(property "Reference" "C7"
+			(at 83.82 116.8463 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 83.82 119.3863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2332,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 57.15 80.01 0)
+		(at 57.15 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2343,7 +4130,7 @@
 		(fields_autoplaced yes)
 		(uuid "70a1cf37-840d-43dc-ba5f-23ac0eec576f")
 		(property "Reference" "C10"
-			(at 59.69 78.7463 0)
+			(at 59.69 66.0463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2355,7 +4142,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 59.69 81.2863 0)
+			(at 59.69 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2367,7 +4154,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +4166,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2391,7 +4178,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,7 +4190,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +4202,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2427,7 +4214,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +4226,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +4238,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 57.15 80.01 0)
+			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +4266,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 44.45 80.01 0)
+		(at 44.45 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2490,7 +4277,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ec39bde-d2c0-438c-b134-a4d7ddde27c2")
 		(property "Reference" "C9"
-			(at 46.99 78.7463 0)
+			(at 46.99 66.0463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2502,7 +4289,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 46.99 81.2863 0)
+			(at 46.99 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2514,7 +4301,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +4313,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +4325,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +4337,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +4349,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +4361,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2586,7 +4373,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2598,7 +4385,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 44.45 80.01 0)
+			(at 44.45 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +4413,7 @@
 	)
 	(symbol
 		(lib_id "1_L_SMD:TCK-141")
-		(at 72.39 111.76 180)
+		(at 72.39 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2637,7 +4424,7 @@
 		(fields_autoplaced yes)
 		(uuid "8090cf99-2d4c-4810-820f-382515134d5c")
 		(property "Reference" "L2"
-			(at 72.39 106.68 0)
+			(at 72.39 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,7 +4434,7 @@
 			)
 		)
 		(property "Value" "5.6uH"
-			(at 72.39 109.22 0)
+			(at 72.39 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2657,7 +4444,7 @@
 			)
 		)
 		(property "Footprint" "1_L_SMD:TCK141"
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2668,7 +4455,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tck141.pdf"
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2679,7 +4466,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 5.6UH 3.5A 90 MOHM SMD"
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2690,7 +4477,7 @@
 			)
 		)
 		(property "Manufacturer" "Traco Power"
-			(at 72.39 111.76 0)
+			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +4488,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TCK-141"
-			(at 72.39 111.76 0)
+			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +4499,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1951-1052-ND"
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +4510,7 @@
 			)
 		)
 		(property "RS Stock Number" ""
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +4521,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +4532,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 73.914 101.092 0)
+			(at 73.914 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +4559,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 44.45 107.95 0)
+		(at 44.45 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2783,7 +4570,7 @@
 		(fields_autoplaced yes)
 		(uuid "87a5d8d2-467a-4a32-b197-2e89c3b6664a")
 		(property "Reference" "C11"
-			(at 46.99 106.6863 0)
+			(at 46.99 119.3863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2795,7 +4582,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 46.99 109.2263 0)
+			(at 46.99 121.9263 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2807,7 +4594,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +4606,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2831,7 +4618,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2843,7 +4630,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2855,7 +4642,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +4654,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,7 +4666,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +4678,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 44.45 107.95 0)
+			(at 44.45 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2919,7 +4706,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TSR2-2465")
-		(at 114.3 104.14 0)
+		(at 114.3 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2930,7 +4717,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e363dd8-4566-48d2-849b-072ba6e71d10")
 		(property "Reference" "U3"
-			(at 114.3 93.98 0)
+			(at 114.3 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2940,7 +4727,7 @@
 			)
 		)
 		(property "Value" "TSR2-2465"
-			(at 114.3 96.52 0)
+			(at 114.3 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2950,7 +4737,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR2-xxxx_THT"
-			(at 114.3 110.236 0)
+			(at 114.3 122.936 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,7 +4749,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tsr2.pdf"
-			(at 114.3 107.95 0)
+			(at 114.3 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2973,7 +4760,7 @@
 			)
 		)
 		(property "Description" "2A step-down regulator, fixed 6.5V output voltage, 9-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-			(at 114.3 104.14 0)
+			(at 114.3 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3002,8 +4789,155 @@
 		)
 	)
 	(symbol
+		(lib_id "DK_Yageo_RT_1206_Resistors:R_1K5_4")
+		(at 27.94 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a17a42b8-5028-456a-aa01-896d7f88dc5e")
+		(property "Reference" "R4"
+			(at 30.48 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "680R"
+			(at 30.48 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+					(thickness 0.1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 0.1% 1/4W 1206"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RT1206BRE071K5L"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "13-RT1206BRE071K5LTR-ND"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 27.94 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65f7793e-8c2b-494f-b359-8b187abc18d3")
+		)
+		(pin "2"
+			(uuid "bea100b3-97e1-4bd3-81b9-10a495f012e2")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1_Fuse_SMD:Littlefuse OMNI-BLOK Holder")
-		(at 173.99 76.2 90)
+		(at 161.29 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3013,7 +4947,7 @@
 		(dnp no)
 		(uuid "a93a511b-2bc5-466d-8a23-fe321c63edd4")
 		(property "Reference" "F1"
-			(at 173.99 74.168 90)
+			(at 161.29 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3023,7 +4957,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 173.99 77.978 90)
+			(at 161.29 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3033,7 +4967,7 @@
 			)
 		)
 		(property "Footprint" "1_Fuse_SMD:LittleFuse_01550900M"
-			(at 173.99 77.978 90)
+			(at 161.29 65.278 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3044,7 +4978,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-blocks-1550900-series-datasheet?assetguid=5ec5d985-39ad-44b5-9bdb-f49bf381a070"
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3055,7 +4989,7 @@
 			)
 		)
 		(property "Description" "Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount"
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3066,7 +5000,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse Inc."
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +5011,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "01550900M"
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +5022,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "F1889-ND"
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,7 +5033,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3110,7 +5044,7 @@
 			)
 		)
 		(property "Package\\Footprint" ""
-			(at 173.99 76.2 0)
+			(at 161.29 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3137,7 +5071,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 133.35 82.55 0)
+		(at 133.35 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3148,7 +5082,7 @@
 		(fields_autoplaced yes)
 		(uuid "be5f14d2-3feb-4e08-8a06-cf708aae7413")
 		(property "Reference" "C1"
-			(at 135.89 81.2863 0)
+			(at 135.89 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3160,7 +5094,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 135.89 83.8263 0)
+			(at 135.89 71.1263 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3172,7 +5106,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3184,7 +5118,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +5130,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +5142,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +5154,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,7 +5166,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +5178,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3256,7 +5190,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 133.35 82.55 0)
+			(at 133.35 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,7 +5218,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 149.86 82.55 0)
+		(at 149.86 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3295,7 +5229,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce8aa827-f6b0-474a-8487-3043f47ff075")
 		(property "Reference" "C2"
-			(at 152.4 81.2863 0)
+			(at 152.4 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3307,7 +5241,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 152.4 83.8263 0)
+			(at 152.4 71.1263 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3319,7 +5253,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +5265,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3343,7 +5277,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3355,7 +5289,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,7 +5301,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +5313,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3391,7 +5325,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +5337,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 149.86 82.55 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +5365,7 @@
 	)
 	(symbol
 		(lib_id "1_L_SMD:TCK-141")
-		(at 72.39 76.2 0)
+		(at 72.39 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3442,7 +5376,7 @@
 		(fields_autoplaced yes)
 		(uuid "ceb990e3-601b-497e-aa90-50367a8bd8a1")
 		(property "Reference" "L1"
-			(at 72.39 71.12 0)
+			(at 72.39 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3452,7 +5386,7 @@
 			)
 		)
 		(property "Value" "5.6uH"
-			(at 72.39 73.66 0)
+			(at 72.39 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,7 +5396,7 @@
 			)
 		)
 		(property "Footprint" "1_L_SMD:TCK141"
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,7 +5407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tck141.pdf"
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +5418,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 5.6UH 3.5A 90 MOHM SMD"
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,7 +5429,7 @@
 			)
 		)
 		(property "Manufacturer" "Traco Power"
-			(at 72.39 76.2 0)
+			(at 72.39 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +5440,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "TCK-141"
-			(at 72.39 76.2 0)
+			(at 72.39 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3517,7 +5451,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1951-1052-ND"
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +5462,7 @@
 			)
 		)
 		(property "RS Stock Number" ""
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,7 +5473,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" ""
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3550,7 +5484,7 @@
 			)
 		)
 		(property "LCSC Part Number" ""
-			(at 70.866 86.868 0)
+			(at 70.866 74.168 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,8 +5510,167 @@
 		)
 	)
 	(symbol
+		(lib_id "1_TH_LED:LED_Green_RA")
+		(at 177.8 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0f17ffa-bc26-4da7-984e-2c3cc018ce5c")
+		(property "Reference" "D1"
+			(at 181.61 71.4374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 181.61 73.9774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "1_LED_TH:LED_TH_RA"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP1503CB-GD.pdf"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "TH"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "WP1503CB/GD"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "754-1555-ND"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Stock Number" "-"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C5879101"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Number" "C5879101"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30abe501-820a-408c-a701-9b7ef658f5fd")
+		)
+		(pin "1"
+			(uuid "6a9b0b29-c07e-49f8-9fe4-5fe9cee796b5")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 93.98 80.01 0)
+		(at 93.98 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3588,7 +5681,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1e68fbf-73d8-4aa1-a7a5-6aa9beeca4b0")
 		(property "Reference" "C6"
-			(at 96.52 78.7463 0)
+			(at 96.52 66.0463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3600,7 +5693,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 96.52 81.2863 0)
+			(at 96.52 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3612,7 +5705,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +5729,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,7 +5741,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3660,7 +5753,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3672,7 +5765,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +5777,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +5789,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 93.98 80.01 0)
+			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,7 +5817,7 @@
 	)
 	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 81.28 80.01 0)
+		(at 81.28 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3735,7 +5828,7 @@
 		(fields_autoplaced yes)
 		(uuid "e47cdc0d-02cb-4762-b4a1-d4761ef62e40")
 		(property "Reference" "C5"
-			(at 83.82 78.7463 0)
+			(at 83.82 66.0463 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3747,7 +5840,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 83.82 81.2863 0)
+			(at 83.82 68.5863 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3759,7 +5852,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +5864,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +5876,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +5888,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3807,7 +5900,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +5912,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3831,7 +5924,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,7 +5936,7 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 81.28 80.01 0)
+			(at 81.28 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +5964,7 @@
 	)
 	(symbol
 		(lib_id "1_Fuse_SMD:Littlefuse OMNI-BLOK Holder")
-		(at 173.99 101.6 90)
+		(at 161.29 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3881,7 +5974,7 @@
 		(dnp no)
 		(uuid "e5da11a8-f816-496e-aea9-57dd726e229d")
 		(property "Reference" "F2"
-			(at 173.99 99.568 90)
+			(at 161.29 112.268 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3891,7 +5984,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 173.99 103.632 90)
+			(at 161.29 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3901,7 +5994,7 @@
 			)
 		)
 		(property "Footprint" "1_Fuse_SMD:LittleFuse_01550900M"
-			(at 173.99 103.378 90)
+			(at 161.29 116.078 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3912,7 +6005,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-blocks-1550900-series-datasheet?assetguid=5ec5d985-39ad-44b5-9bdb-f49bf381a070"
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3923,7 +6016,7 @@
 			)
 		)
 		(property "Description" "Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount"
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3934,7 +6027,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse Inc."
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,7 +6038,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "01550900M"
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +6049,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "F1889-ND"
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,7 +6060,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3978,7 +6071,7 @@
 			)
 		)
 		(property "Package\\Footprint" ""
-			(at 173.99 101.6 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3989,10 +6082,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5a46c5b-3092-4a9d-8d87-24521cf9a528")
+			(uuid "c5a46c5b-3092-4a9d-8d87-24521cf9a529")
 		)
 		(pin "2"
-			(uuid "a3148f14-9dfb-4fe4-98b1-f343f7adff21")
+			(uuid "a3148f14-9dfb-4fe4-98b1-f343f7adff22")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
@@ -4004,8 +6097,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
-		(at 149.86 95.25 0)
+		(lib_id "DK_Yageo_RT_1206_Resistors:R_680R")
+		(at 177.8 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4014,9 +6107,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fabcd590-381c-4727-88f8-0cf2fee62076")
-		(property "Reference" "C4"
-			(at 152.4 93.9863 0)
+		(uuid "f5f1e3d1-104f-4241-be9f-53e04da01115")
+		(property "Reference" "R2"
+			(at 180.34 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4024,23 +6117,23 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10uF"
-			(at 152.4 96.5263 0)
+		(property "Value" "680R"
+			(at 180.34 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.889 0.889)
+					(thickness 0.1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 149.86 95.25 0)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,8 +6144,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
-			(at 149.86 95.25 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RT_1-TO-0-01_ROHS_L"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4063,8 +6156,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 10UF 25V X7R 1206"
-			(at 149.86 95.25 0)
+		(property "Description" "RES SMD 680 OHM 1% 1/4W 1206"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,8 +6168,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 149.86 95.25 0)
+		(property "Manufacturer" "Yageo"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,8 +6180,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
-			(at 149.86 95.25 0)
+		(property "Manufacturer Part Number" "RT1206FRE07680RL"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,8 +6192,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "490-6518-2-ND"
-			(at 149.86 95.25 0)
+		(property "DigiKey Part Number" "13-RT1206FRE07680RLTR-ND"
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +6205,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 149.86 95.25 0)
+			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +6217,154 @@
 			)
 		)
 		(property "Package/Footprint" "1206"
-			(at 149.86 95.25 0)
+			(at 177.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b87f26d-2585-4ddd-8151-8f68c8c47167")
+		)
+		(pin "2"
+			(uuid "35242029-e022-44a4-a0c2-d328cd5fd2a5")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
+		(at 149.86 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fabcd590-381c-4727-88f8-0cf2fee62076")
+		(property "Reference" "C4"
+			(at 152.4 106.6863 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 152.4 109.2263 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71E106KA12-01.pdf"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1206"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM31CR71E106KA12L"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "490-6518-2-ND"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package/Footprint" "1206"
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
