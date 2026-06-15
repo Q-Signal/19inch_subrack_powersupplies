@@ -5,6 +5,213 @@
 	(uuid "b69b24ff-9615-4367-bf66-a9da7cf1fb60")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1_Fuse_SMD:Littlefuse OMNI-BLOK Holder"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "1_Fuse_SMD:LittleFuse_01550900M"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-blocks-1550900-series-datasheet?assetguid=5ec5d985-39ad-44b5-9bdb-f49bf381a070"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Littelfuse Inc."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "01550900M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "F1889-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package\\Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Littlefuse OMNI-BLOK Holder_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Littlefuse OMNI-BLOK Holder_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "1_L_SMD:TCK-141"
 			(pin_names
 				(hide yes)
@@ -557,158 +764,6 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.302)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -1526,141 +1581,6 @@
 		(uuid "ad7a1070-7b22-4683-a59a-dabea967a347")
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 173.99 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000d8d-a144-4773-8369-82409b59b987")
-		(property "Reference" "F1"
-			(at 173.99 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 173.99 72.39 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
-			(at 173.99 77.978 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "FUSE BRD MNT 2A 125VAC/VDC 2SMD"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse Inc."
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0452002.MRL"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "F2602TR-ND"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package/Footprint" "2-SMD, Square End Block"
-			(at 173.99 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fda32f1d-0536-42e5-98a1-6eaf40593c70")
-		)
-		(pin "1"
-			(uuid "ed8b64d3-8c85-4c36-bda9-8f69f8359a3f")
-		)
-		(instances
-			(project "powersupplies_kicadproject"
-				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
 		(at 133.35 95.25 0)
 		(unit 1)
@@ -2086,150 +2006,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb77")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce126")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 173.99 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48bf9344-e257-43e9-9161-f6876235f74e")
-		(property "Reference" "F2"
-			(at 173.99 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 173.99 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-451_453"
-			(at 173.99 103.378 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-452-454-datasheet?assetguid=8c87aa93-80a7-4ea8-8749-a19ba03901c2"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "FUSE BRD MNT 2A 125VAC/VDC 2SMD"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Littelfuse Inc."
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "0452002.MRL"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "F2602TR-ND"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMD"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package/Footprint" "2-SMD, Square End Block"
-			(at 173.99 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3e4ec215-f3ac-4897-bf4c-2cc31646ae74")
-		)
-		(pin "1"
-			(uuid "b342c48b-eddc-40ae-ad56-1665e7248b40")
-		)
-		(instances
-			(project "powersupplies_kicadproject"
-				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
-					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -2531,10 +2316,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb78")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce127")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
@@ -3217,6 +3002,140 @@
 		)
 	)
 	(symbol
+		(lib_id "1_Fuse_SMD:Littlefuse OMNI-BLOK Holder")
+		(at 173.99 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a93a511b-2bc5-466d-8a23-fe321c63edd4")
+		(property "Reference" "F1"
+			(at 173.99 74.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 173.99 77.978 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1_Fuse_SMD:LittleFuse_01550900M"
+			(at 173.99 77.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-blocks-1550900-series-datasheet?assetguid=5ec5d985-39ad-44b5-9bdb-f49bf381a070"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "01550900M"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "F1889-ND"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package\\Footprint" ""
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a46c5b-3092-4a9d-8d87-24521cf9a528")
+		)
+		(pin "2"
+			(uuid "a3148f14-9dfb-4fe4-98b1-f343f7adff21")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DK_Murata_GRM_1206_Capacitors:C_10uF")
 		(at 133.35 82.55 0)
 		(unit 1)
@@ -3496,10 +3415,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb79")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce128")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
@@ -3642,10 +3561,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5e841595-c215-4ffa-9cc5-1c608c725725")
+			(uuid "5e841595-c215-4ffa-9cc5-1c608c725726")
 		)
 		(pin "1"
-			(uuid "2ee7bb6d-afc1-46e7-b6e0-bd1eaa36cf75")
+			(uuid "2ee7bb6d-afc1-46e7-b6e0-bd1eaa36cf76")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
@@ -3789,10 +3708,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb7a")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce129")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
@@ -3936,15 +3855,149 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb7b")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce12a")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
 				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_Fuse_SMD:Littlefuse OMNI-BLOK Holder")
+		(at 173.99 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5da11a8-f816-496e-aea9-57dd726e229d")
+		(property "Reference" "F2"
+			(at 173.99 99.568 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 173.99 103.632 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1_Fuse_SMD:LittleFuse_01550900M"
+			(at 173.99 103.378 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-blocks-1550900-series-datasheet?assetguid=5ec5d985-39ad-44b5-9bdb-f49bf381a070"
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse Block 10 A 125V 1 Circuit Cartridge Surface Mount"
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Littelfuse Inc."
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "01550900M"
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "F1889-ND"
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMD"
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package\\Footprint" ""
+			(at 173.99 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5a46c5b-3092-4a9d-8d87-24521cf9a528")
+		)
+		(pin "2"
+			(uuid "a3148f14-9dfb-4fe4-98b1-f343f7adff21")
+		)
+		(instances
+			(project "powersupplies_kicadproject"
+				(path "/d2bb73ea-a6bc-4588-b3f4-545ae2e25abc/d4756eb8-e5f6-46b5-beee-cd050daeaa88"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -4083,10 +4136,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb76")
+			(uuid "a14fb740-5f3d-4dc2-bc52-f7d8db6bdb7c")
 		)
 		(pin "1"
-			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce125")
+			(uuid "ad0d5131-cf8b-4aac-b9e8-f3c1991ce12b")
 		)
 		(instances
 			(project "powersupplies_kicadproject"
